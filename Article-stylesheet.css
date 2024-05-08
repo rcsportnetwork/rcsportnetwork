@@ -1,0 +1,168 @@
+.menubar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: gray;
+    height: 40px;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .homebutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    vertical-align: center;
+  }
+  
+  .bkbutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .worldwidebutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .basketballbutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .swimmingbutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .volleyballbutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .footballbutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .applybutton{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .mainpage{
+    display: flex;
+  }
+  
+    .dropbtn {
+      background-color: transparent;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: transparent;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .Bkbutton:hover .dropdown-content {
+      display: block;
+  }
+  
+  .Bkbutton:hover .dropbtn {
+      background-color: black;
+  }
+  
+  .Worldwidebutton:hover .dropdown-content {
+      display: block;
+  }
+  
+  .Worldwidebutton:hover .dropbtn {
+      background-color: black;
+  }
+
+  .container {  display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "left content right";
+    background-color: rgb(237, 236, 236);
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  
+  .left-side { grid-area: left; }
+  
+  .content { grid-area: content; }
+  
+  .right-side { grid-area: right; }
+
+  .heading{
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .content{
+    line-height: 30px;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .heading{
+      margin-top: 100px;
+  }
+
+  .author{
+    text-align: center;
+  }
+
+  .datetime{
+    font-size: 12px;
+    text-align: right;
+  }
+  
